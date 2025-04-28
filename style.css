@@ -42,11 +42,12 @@ form .img_centro{
     width: 136px;
     height: 141px;
     position: absolute;
-    top: 118px;
+    top: 43px;
+    background-color: #032639;
 }
 
 form .content{
-    margin: 25px;
+    margin: 100px;
 }
 
 form h1{
