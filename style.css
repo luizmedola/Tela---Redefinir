@@ -20,16 +20,6 @@ body{
     right: 0;
 }
 
-.img_centro{
-    background-color: #032639;
-    width: 136px;
-    height: 141px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 137.1%;
-}
-
 .container{
     width: 100%;
     margin: 0 auto;
@@ -37,12 +27,26 @@ body{
 }
 
 form{
-    background: #032639;
     width: 100%;
-    height: 600px;
-    padding: 200px;
+    height: 100%;
+    padding: 60px;
     border-radius: 20px;
     border: #ffffff solid 0.1px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form .img_centro{
+    width: 136px;
+    height: 141px;
+    position: absolute;
+    top: 105px;
+}
+
+form .content{
+    margin: 25px;
 }
 
 form h1{
@@ -60,7 +64,8 @@ form p{
 
 form .input-single{
     position: relative;
-    margin: 100px 0;
+    margin: 50px 0;
+    width: 100%;
 }
 
 form .input-single .input{
